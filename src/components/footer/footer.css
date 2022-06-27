@@ -1,12 +1,12 @@
 footer {
 	background: var(--white-color);
-	margin-top: 10rem;
 }
 footer .max-width {
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	height: 8rem;
+	margin-top: 10rem;
 	position: relative;
 }
 
