@@ -1,7 +1,7 @@
 const  data = {
 	"blog": {
-		"mainTitle": "My BLOG",
-		"subTitle": "React & Node",
+		"mainTitle": "React Blog",
+		"subTitle": "My BLOG",
 		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis nostrum dolor provident beatae deserunt magnam, illo neque. Maiores ipsum commodi dolorum beatae aliquid laboriosam est"
 	},
 	"posts": [
