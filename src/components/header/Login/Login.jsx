@@ -1,4 +1,4 @@
-// 이미지
+// img
 import login from "../../../assets/icon-login.svg"
 import register from "../../../assets/icon-register.svg"
 

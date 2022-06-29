@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 //css
 import "./header.css"
-//이미지
+//img
 import logo from "../../assets/Logo.svg"
 //모듈
 import Login from "./Login/Login";

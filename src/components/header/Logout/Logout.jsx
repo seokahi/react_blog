@@ -1,4 +1,4 @@
-//이미지
+//img
 import profile from "../../../assets/profile.jpg"
 import wrtie  from "../../../assets/icon-modify-white.svg" 
 import logout from "../../../assets/icon-logout.svg"
