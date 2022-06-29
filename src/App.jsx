@@ -1,4 +1,4 @@
-import {BrowserRouter, Route} from "react-router-dom"; 
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 // 페이지
 import HomePage from "./pages/HomePage" 
 import PostPage  from "./pages/PostPage";
@@ -8,14 +8,19 @@ import Header from "./components/header/Header"
 // css
 import "./reset.css"
 import "./global.css"
+// 데이터
+import data from "./data"
+
 function App() {
 	return (
 		<>
 			<Header />
-			<BrowserRouter>
-				<Route path="/" exact component={HomePage} />
-				<Route path="/post" exact component={PostPage} />
-			</BrowserRouter>
+			<Router>
+				<Routes>
+					<Route path="/"  element={<HomePage data={data}/>}/>
+					<Route path="/post" element={<PostPage data={data}/>} />
+				</Routes>
+			</Router>
 			<Footer />
 		</>
 	)

@@ -1,5 +1,12 @@
-export default function HomePage() {
+//모듈
+import Banner from "../components/banner/Banner"
+import Main from "../components/main/Main"
+
+export default function HomePage({data}) {
     return (
-        <h1>배고파</h1>
+        <>
+            <Banner blog={data.blog} />
+            <Main data={data}/>
+        </>
     )
 };
