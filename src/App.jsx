@@ -1,4 +1,5 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+
+import { Route, Routes } from "react-router-dom";
 // 페이지
 import HomePage from "./pages/HomePage" 
 import PostPage  from "./pages/PostPage";
@@ -15,12 +16,10 @@ function App() {
 	return (
 		<>
 			<Header />
-			<Router>
-				<Routes>
-					<Route path="/"  element={<HomePage data={data}/>}/>
-					<Route path="/post" element={<PostPage data={data}/>} />
-				</Routes>
-			</Router>
+			<Routes>
+				<Route path="/"  element={<HomePage data={data}/>}/>
+				<Route path="/post" element={<PostPage data={data}/>} />
+			</Routes>
 			<Footer />
 		</>
 	)
